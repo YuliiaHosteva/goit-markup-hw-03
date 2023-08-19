@@ -1,0 +1,173 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.link-logo {
+color: var(--iris, #4D5AE5);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17em;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+
+.logo-studio {
+color: var(--navyblue, #2E2F42);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17em;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+.nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.navigation .nav-link {
+  color: #2E2F42;
+  text-decoration: none;
+}
+
+.navigation .nav-link:hover {
+    color: #404bbf;
+    
+}
+
+.navigation .nav-link:focus {
+    color: #404bbf;
+}
+
+.contacts-links {
+    font-style: normal
+}
+
+.link {
+color: #434455;
+font-size: 16px;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.contacts-links .link {
+    color: #434455; /* Колір посилання */
+    text-decoration: none; /* Відсутність підкреслення */
+    
+  }
+  
+  /* Стилі для посилання при наведенні курсора */
+  .contacts-links .link:hover {
+    color: #404bbf; /* Новий колір при наведенні */
+
+  }
+  
+  /* Стилі для посилання при фокусі (наприклад, клавішною Tab) */
+  .contacts-links .link:focus {
+    color: #404bbf; /* Новий колір при фокусі */
+  }
+  
+  .hero-blok {
+    background: #2e2f42;
+    
+  }
+  .hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07em;
+    letter-spacing: 0.02em;
+  }
+  .order-service {
+    font-family: "Roboto", sans-serif;
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    background: var(--iris, #4D5AE5);
+    cursor: pointer;
+    
+  }
+  .order-service:hover {
+    background-color: #404BBF;
+    text-decoration: none;
+  }
+  .order-service:focus {
+    background-color: #404BBF;
+    outline: none;
+  }
+   .subject {
+    color: var(--navyblue, #2E2F42);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .title {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    }
+
+    .our-team {
+    background-color: #F4F4FD;
+
+    }
+
+    .team-list {
+    background-color: #FFFFFF;
+  }
+
+  .img-card {
+    background: var(--white, #FFF);
+  }
+
+  .logo-studio-footer     {
+    color: var(--cloud, #F4F4FD);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    }  
+    
+    .footer-aside {
+        background-color: var(--navyblue, #2E2F42);
+
+    }
+    .text-footer {
+    color: var(--cloud, #F4F4FD);
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    }
