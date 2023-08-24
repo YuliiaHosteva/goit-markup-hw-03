@@ -63,8 +63,7 @@ margin-bottom: 0;
 
 ul, ol {
 list-style-type: none;
-margin-top: 0;
-margin-bottom: 0;
+margin: 0;
 padding-left: 0;
 }
 
@@ -227,7 +226,6 @@ outline: none;
 padding: 120px 0;
 }
 
-
 .visually-hidden {
 position: absolute;
 width: 1px;
@@ -251,7 +249,6 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 margin-bottom: 72px;
-
 }
 
 .text-list {
@@ -259,13 +256,11 @@ display: flex;
 padding-left: 156px;
 gap: 24px;
 align-items: flex-start;
-
 }
 
 .feature-list {
 width: calc((100% - 72px) / 4)  
 }
-
 
 /* h3 */
 .title { 
