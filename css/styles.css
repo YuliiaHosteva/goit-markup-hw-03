@@ -9,14 +9,16 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
 margin: 0 auto;
-width: 1128px;
-padding: 0 15px;
 }
 
 .header {
-width: 1158px;  
-margin: 0 auto;
+max-width: 1158px;  
+margin-top: 0;
+margin-bottom: 0;
 padding-left: 15px;
 padding-right: 15px;
 display: flex;
@@ -160,14 +162,16 @@ color: #404bbf; /* Новий колір при фокусі */
 /* Section Hero */
 
 .section-hero {
+background: #2e2f42;
 padding: 188px 0;  
 flex-shrink: 0;
+display: flex;
+
 }
 
 .hero {
-background: #2e2f42;
-width: 1440px;
-height: 600px;
+flex-direction: column;
+gap: 40px;
 }
 
 /* h1 */
@@ -181,9 +185,10 @@ line-height: 1.07em;
 letter-spacing: 0.02em;
 justify-content: center;
 align-items: center;
-margin-bottom: 48px;
-padding-top: 188px;
-margin-left: 472px;
+margin-right: auto;
+margin-left: auto;
+display: flex;
+max-width: 496px;
 
 }
 /* button */
@@ -206,7 +211,7 @@ margin-right: auto;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 padding: 16px 32px;
 border: none;
-margin-bottom: 188px;
+margin-top: 48px;
 
 }
 
@@ -281,14 +286,12 @@ letter-spacing: 0.02em;
 
 /* Section Our Team */
 
-.section-team {
-padding: 120px 0; 
+.section-team { 
+background-color: #F4F4FD; 
+padding: 120px 0;
 }
 
 .team {
-background-color: #F4F4FD;  
-width: 1440px;
-height: 732px;
 flex-shrink: 0;
 }
 
@@ -333,7 +336,6 @@ padding-bottom: 120px;
 background: var(--white, #FFF);
 width: 1158px;
 flex-shrink: 0;
-padding-bottom: 120px;
   
 }
   
